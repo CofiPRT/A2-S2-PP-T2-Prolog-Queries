@@ -1,0 +1,35 @@
+------ PARADIGME DE PROGRAMARE ------
+---------- Tema 2 - Prolog ----------
+
+ ________  ________   
+|\   __  \|\   __  \  
+\ \  \|\  \ \  \|\  \ 
+ \ \   ____\ \   ____\
+  \ \  \___|\ \  \___|
+   \ \__\    \ \__\   
+    \|__|     \|__|   
+                      
+                      
+                      
+
+=== ==================== ===
+=== Gasirea Predicatelor ===
+=== ==================== ===
+	
+	'main.pl'
+		Se afla doar predicatul 'eval/2' cu toata implementarea sa pentru
+		orice query.
+
+	'operations.pl'
+		Predicatele ce se termina in '_op' se pot gasi aici.
+
+		Acestea sunt predicate ce il ajuta pe 'eval/2' in implementarea
+		fiecarei operatii (query).
+
+	'op_helpers.pl'
+		Predicate aleatoare dar putin mai complexe, ce ajuta la implementarea
+		celor din 'operations.pl' si 'main.pl'
+
+	'helpers.pl'
+		Predicate aleatoare de complexitate redusa, folosite pe tot parcursul
+		programului (precum 'head/2', 'tail/2' si 'myTranspose/2').
